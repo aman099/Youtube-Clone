@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="toggle-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <img src="img/logo.png" class="logo" alt="Logo" />
+      <div class="search-box">
+        <input type="text" class="search-bar" placeholder="search" />
+        <button class="search-btn">
+          <img src="img/search.PNG" alt="Search button" />
+        </button>
+      </div>
+      <div class="user-options">
+        <img src="img/video.PNG" class="icon" alt="" />
+        <img src="img/grid.PNG" class="icon" alt="" />
+        <img src="img/bell.PNG" class="icon" alt="" />
+      </div>
+      <div class="user-dp">
+        <img src="img/Aalphabet.png" alt="User Profile Picture" />
+      </div>
+      <ul id="result" class="user-list hide"></ul>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="side-bar">
+      <a href="#" class="links active"
+        ><img src="img/home.PNG" alt="Home" />home</a
+      >
+      <a href="#" class="links"
+        ><img src="img/explore.PNG" alt="Explore" />explore</a
+      >
+      <a href="#" class="links"
+        ><img src="img/subscription.PNG" alt="Subscription" />subscription</a
+      >
+      <hr class="separator" />
+      <a href="#" class="links"
+        ><img src="img/library.PNG" alt="Home" />library</a
+      >
+      <a href="#" class="links"
+        ><img src="img/history.PNG" alt="Home" />history</a
+      >
+      <a href="#" class="links"
+        ><img src="img/your-video.PNG" alt="Home" />your videos</a
+      >
+      <a href="#" class="links"
+        ><img src="img/watch-later.PNG" alt="Home" />watch later</a
+      >
+      <a href="#" class="links"
+        ><img src="img/liked video.PNG" alt="Home" />like video</a
+      >
+      <a href="#" class="links"
+        ><img src="img/show more.PNG" alt="Home" />show more</a
+      >
+    </div>
+
+    <!-- Filters -->
+    <div class="filters">
+      <button
+        class="filter-options active"
+        style="background-color: #242424; color: #fff"
+      >
+        All
+      </button>
+      <button class="filter-options">News</button>
+      <button class="filter-options">Web Developement</button>
+      <button class="filter-options">Thoughts</button>
+      <button class="filter-options">Entertainment</button>
+      <button class="filter-options">Live</button>
+      <button class="filter-options">Bhajans</button>
+      <button class="filter-options">Bodybuilding</button>
+      <button class="filter-options">Comedy</button>
+      <button class="filter-options">History</button>
+    </div>
+
+    <!-- Videos -->
+    <div class="video-container">
+      <!-- <div class="video">
+        <img
+          src="img/profile-pic.png"
+          class="thumbnail"
+          alt="User Profile Pic"
+        />
+        <div class="content">
+          <img
+            src="img/profile-pic.png"
+            class="channel-icon"
+            alt="User Profile Pic"
+          />
+          <div class="info">
+            <h4 class="title">
+              Youtube clone 2023 | Create working youtube clone
+            </h4>
+            <p class="channel-name">Mordern Web</p>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
